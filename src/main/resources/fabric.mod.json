@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "orezones",
+  "version": "${version}",
+  "name": "Ore Zones",
+  "description": "Client-side ore zone finder. Boxes where the hidden part of a vein is, for every ore. F6 on/off, F7 filter.",
+  "authors": ["Secret"],
+  "license": "MIT",
+  "environment": "client",
+  "accessWidener": "orezones.accesswidener",
+  "entrypoints": {
+    "client": ["dev.secret.orezones.OreZonesClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
